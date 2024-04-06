@@ -1,0 +1,20 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+}
+
+#diary_block{
+    width: 50%;	height: 70%; /* Размеры */
+    outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+}
+
+#current_date_time_block{
+    position: absolute;
+    bottom: 95%;
+    left: 46%;
+    width: 4%;
+}
+

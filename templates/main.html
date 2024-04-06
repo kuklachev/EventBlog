@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<div id="diary_block" class="container mt-5">
+<h1 class="display-4 fw-normal text-body-emphasis">Добавление события</h1>
+<form action="/main" method="post">
+    <input type="text" name="title" id="title" class="form-control" placeholder="Заголовок"><br>
+    <textarea name="text" id="text" class="form-control" placeholder="Основной текст"></textarea><br>
+    <input type="date" name="date" id="date" class="form-control"><br>
+    <input type="submit" class="btn btn-success" value="Добавить">
+</form>
+</div>
+{% endblock %}
